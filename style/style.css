@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin: 0; 
+    /*scroll-behavior: smooth;*/
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+
+body{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: url('../img/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;   
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 53px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #fff; 
+}
+
+img#logo{
+    margin-left: 60px;
+    pointer-events: none;
+
+}
+
+img#eua{
+    margin-right: 58px;
+    opacity: 50%;
+}
+
+img#brasil, #eua{
+    width: 46px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+img#eua:hover{
+    transform: translateY(5%);
+}
+
+img#brasil:hover{
+    transform: translateY(5%);
+}
+
+section#section-text{
+    margin-top: 145px;
+    margin-left: 65px;
+    width: 346px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+section#section-text a{
+
+    width: 70%;
+    height: 60px;
+}
+
+section#section-text p{
+    font-size: 18px;
+    color: #9C9C9C;
+    font-weight: bold;
+}
+
+section h1#title{
+    font-size: 64px;
+    color: #ffffff;
+}
+
+section#section-text button{
+    background-color: #CC4EBA;
+    color: #fff;
+    width: 250px;
+    padding: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 34px;
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+
+section#section-text button:hover{
+    box-shadow: 0px 4px 61px #CC4EBA;
+}
+
+img#arrow-up{
+    position: fixed;
+    right: 5%;
+    top: 88%;  
+    width: 50px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+img#arrow-up:hover{
+    transform: translateY(-10%);
+}
+
+div#contratar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1#title-contrate{
+    color: #00113D;
+    font-size: 36px;
+    margin-top: 5%;
+}
+
+div#contatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+img#img-contrate{
+    width: 308px;
+    margin-top: 48px;
+}
+
+.itens-contatos{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-contratos{
+    width: 60px;
+}
+
+.h2-text{   color:#4D4D4D}
+.h3-text{ color: #979797;}
+
+div#desenvolvedores{
+    text-align: center;
+}
+
+div#dev-grid{
+    margin-top: 72px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-row-gap: 32px;
+    grid-column-gap: 5px;
+}
+
+h1#title-dev{
+    color: #00113D;
+    margin-top: 120px;
+    font-size: 36px;
+}
+
+div#dev-grid section {
+    width: 300px;
+    margin-top: 72px;
+}
+
+div#dev-grid section img{
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 60px #cc4eb92a;
+    transition: 0.5s ease-out;
+    filter: brightness(50%);
+}
+
+div#dev-grid section img:hover{
+    border-radius: 10%;
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+
+
+div#dev-grid section h1{
+    color: #4D4D4D;
+    font-size: 36px;
+}
+
+div#dev-grid section h2{
+    color: #979797;
+    font-size: 18px;
+}
+
+div#about{
+    margin-top: 76px;
+    background-image: url('../img/background-about.png');
+    width: 100%;
+    height: 100vh;
+}
+
+section#about-1 h1{
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 68px;
+
+}
+
+section#about-2{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+section#about-2 img{
+    width: 420px;
+}
+
+section#about-2 h4{
+    color: white;
+    width: 400px;
+    text-align: justify;
+    margin-left: 52px;
+}
+
+h1#h1-faq{
+    font-size:36px;
+    text-align: center;
+    margin-top: 5%;
+    color: #00113D;
+}
+
+section#sec-faq{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq:first-child{
+    
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #00113D;
+    cursor: pointer;
+}
+
+.faq:last-child{
+    margin-bottom: 1rem;
+}
+
+.questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.questions h3{
+    font-size: 1.8rem;
+    color: #141414;
+}
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s linear;
+}
+
+
+
+.content p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #363636c2;
+    font-weight: bold;
+}
+
+.faq.active .content{
+    max-height: 300px
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer img{
+    width: 30px;
+    margin: 5px;
+    filter: invert();
+}
+
+p#cop{
+    color: #979797;
+}
+
+#btn-menu{
+    display: none;
+    border-top: 2px solid;
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+#hamburger{
+    display: block;
+    width: 35px;
+    border-top: 3px solid;
+    color: #fff;
+
+}
+
+#hamburger::after{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin-top: 7px;
+}
+
+#hamburger::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin-top: 7px;
+}
+
+#navegation.active #hamburger{
+    background: turquoise;
+    
+   
+}
+
+#btn-menu.X #hamburger{
+    border-top: transparent;
+}
+
+#btn-menu.X #hamburger::before{
+    transform: rotate(135deg);
+}
+
+#btn-menu.X #hamburger::after{
+    transform: rotate(-135deg);
+    position: relative;
+    top:-9px;
+}
+
+
+

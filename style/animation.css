@@ -1,0 +1,41 @@
+nav{
+    animation: aparecer ease-in 0.5s;
+}
+
+@keyframes aparecer{
+    
+    from{
+        transform: translateY(5%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+section h1#title{
+    animation: toright ease-out 0.7s;
+}
+
+section#section-text p#text-home{
+    animation: toright ease-out 0.8s;
+}
+
+section#section-text button{
+    animation: toright ease-out 1s;
+}
+
+
+@keyframes toright{
+    
+    from{
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
