@@ -261,9 +261,7 @@ section#sec-faq{
     align-items: center;
 }
 
-.faq:first-child{
-    
-}
+
 .faq{
     max-width: 700px;
     margin-top: 2rem;
