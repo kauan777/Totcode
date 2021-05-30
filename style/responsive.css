@@ -292,3 +292,10 @@ section.itens-contatos{
         width: 250px;
     }
 }
+
+@media screen and (max-width: 320px){
+
+    div#contratar{
+        margin-top: 500px;
+    }
+}
