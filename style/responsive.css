@@ -1,3 +1,78 @@
+@media screen and (max-width:1090px) {
+    img#brasil, #eua{
+        display: none;
+    }
+
+    .spinner img{
+    width: 350px;
+    
+    }   
+
+    #spn-right{
+        margin-right: 2%;
+    }
+    
+    #spn-left{
+        margin-left: 2%;
+    }
+
+    .slider ~ span{
+        margin-top: -18rem;
+    }
+
+
+}
+@media screen and (max-width: 1040px){
+
+    .spinner img{
+        width: 400px;
+        min-width: 300px;
+        }  
+
+        .slider ~ span{
+            margin-top: -5rem;
+        }
+
+        p#text-prototipo{
+            margin-top: -4.5rem;
+            color: #00113D;
+
+        }
+    
+}
+
+@media screen and (max-width: 590px){
+
+    
+        p#text-prototipo{
+            font-size: 1rem;
+
+        }
+    
+}
+
+@media screen and (max-width: 525px){
+
+    
+    p#text-prototipo{
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 485px){
+
+    h1#h1-portifolio{
+        padding: 10%;
+        color: #00113D;
+        text-align: center;
+       
+    }
+
+}
+
+
+
 @media screen and (max-width: 982px){
 
  
@@ -50,6 +125,16 @@
 }
 
 @media screen and (max-width: 773px){
+
+    h3.h3-questions{
+        font-size: 1.5rem;
+    }
+
+    .slider ~ span{
+        background: #cacaca;
+        color: #fff;
+        
+        }
 
     header{
         position: absolute;
@@ -148,6 +233,8 @@ nav a{
     margin-left: 30%;
     margin-right: 5%;
 }
+
+
 
 nav{
     display: flex;
