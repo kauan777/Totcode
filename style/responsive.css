@@ -71,6 +71,12 @@
         display: none;
 
     }
+
+
+    .spinner img{
+        width: 96%;
+
+        }  
 }
 
 @media screen and (max-width: 485px){
