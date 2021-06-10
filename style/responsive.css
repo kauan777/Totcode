@@ -42,6 +42,13 @@
 
 @media screen and (max-width: 590px){
 
+    .spinner img{
+        width: 50%;
+        position: absolute;
+        transform-origin: 50% 50% -500px;
+        outline: 1px solid transparent;
+    }
+
     
         p#text-prototipo{
             font-size: 1rem;
@@ -62,7 +69,8 @@
             margin: 0 auto;
             perspective: 1200px;
             padding-top:5%;
-            width: 100%;
+            width: 50%;
+            
         }
     
 }
@@ -72,15 +80,26 @@
     
     p#text-prototipo{
         display: none;
-
     }
 
-
-
+    .spinner{
+    
+        display: flex;
+        justify-content: center;
+        transform-style: preserve-3d;
+        height: 100px;
+        transform-origin: 50% 50% -450px;
+        transition: 1s;
+        margin-bottom: 50%;
+    }
+    
     .spinner img{
-        width: 22px;
+        
+        position: absolute;
+        transform-origin: 50% 50% -450px;
+        outline: 1px solid transparent;
+    }
 
-        }  
 }
 
 @media screen and (max-width: 485px){
@@ -91,6 +110,17 @@
         text-align: center;
        
     }
+
+    .spinner{
+        width: 100%;
+        
+    }
+
+    .spinner img{
+        width: 90%;
+
+    }
+    
 
 }
 
