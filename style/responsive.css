@@ -65,7 +65,7 @@
             padding-top:5%;
             width: 60%;
         }
-        
+
         .spinner{
             
             display: flex;
@@ -75,8 +75,12 @@
             height: 300px;
             transform-origin: 0% 0% 0px;
             transition: 1s;
-            margin-top: 180%;
+            margin-top: 165%;
             margin-bottom: 180%;
+        }
+
+        h1#h1-faq{
+            font-size: 28px;
         }
         
         .spinner img{
