@@ -94,7 +94,7 @@
     }
     
     .spinner img{
-        
+        width: 90px;
         position: absolute;
         transform-origin: 50% 50% -450px;
         outline: 1px solid transparent;
