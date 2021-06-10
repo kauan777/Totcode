@@ -44,9 +44,10 @@
 
     .spinner img{
         width: 50%;
-        position: absolute;
+        position: relative;
         transform-origin: 50% 50% -500px;
         outline: 1px solid transparent;
+        margin: 5px;
     }
 
     
@@ -55,25 +56,51 @@
 
         }
 
-        .spinner{
-            height: 100px;
-            width: 100%;
-            margin-bottom: 250px;
-        }
-
-        
-
-
         .slider{   
-    
+            display: flex;
+            position: relative;
+            flex-direction: column;
             margin: 0 auto;
-            perspective: 1200px;
+            perspective: 0px;
             padding-top:5%;
-            width: 50%;
+            width: 60%;
+        }
+        
+        .spinner{
             
+            display: flex;
+            justify-content: center;
+           flex-direction: column;
+            transform-style: none;
+            height: 300px;
+            transform-origin: 0% 0% 0px;
+            transition: 1s;
+            margin-top: 180%;
+            margin-bottom: 180%;
+        }
+        
+        .spinner img{
+            width: 350px;
+            position: relative;
+            transform-origin: 50% 50% -500px;
+            outline: 1px solid transparent;
+        }
+
+    .spinner img:nth-child(1){transform: rotateY(0deg);}
+    .spinner img:nth-child(2){transform: rotateY(0deg);}
+    .spinner img:nth-child(3){transform: rotateY(0deg);}
+    .spinner img:nth-child(4){transform: rotateY(0deg);}
+    .spinner img:nth-child(5){transform: rotateY(0deg);}
+    .spinner img:nth-child(6){transform: rotateY(0deg);}
+    .spinner img:nth-child(7){transform: rotateY(0deg);}
+    .spinner img:nth-child(8){transform: rotateY(0deg);}
+
+    .slider ~ span{
+        display: none;
+    }
         }
     
-}
+
 
 @media screen and (max-width: 525px){
 
@@ -82,23 +109,6 @@
         display: none;
     }
 
-    .spinner{
-    
-        display: flex;
-        justify-content: center;
-        transform-style: preserve-3d;
-        height: 100px;
-        transform-origin: 50% 50% -450px;
-        transition: 1s;
-        margin-bottom: 50%;
-    }
-    
-    .spinner img{
-        width: 90px;
-        position: absolute;
-        transform-origin: 50% 50% -450px;
-        outline: 1px solid transparent;
-    }
 
 }
 
@@ -109,18 +119,7 @@
         color: #00113D;
         text-align: center;
        
-    }
-
-    .spinner{
-        width: 100%;
-        
-    }
-
-    .spinner img{
-        width: 90%;
-
-    }
-    
+    } 
 
 }
 
