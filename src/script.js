@@ -17,9 +17,6 @@ btnmenu.addEventListener("click", ()=>{
 
 
 let angle = 0;
-// let i = 0;
-// const img = document.querySelectorAll("img.img-slide")
-
 
 function galleryspinright(sign){
    
@@ -32,13 +29,6 @@ function galleryspinright(sign){
     }
     spinner.setAttribute("style", "transform: rotateY("+angle+"deg);")
 }
-
-
-// function addFront(){
-//     img[i].classList.remove("selected")
-//     i++
-//     img[i].classList.add("selected")
-// }
 
 function galleryspinleft(sign1){
     spinner = document.querySelector(".spinner");
