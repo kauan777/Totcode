@@ -4,7 +4,7 @@ const eua = document.getElementById("eua")
 const texto = document.querySelectorAll('.texto')
 let textoArr = [...texto]
 
-console.log(textoArr[20])
+
 
 function clickbra(){
     bra.style.opacity = "100%"
