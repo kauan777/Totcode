@@ -44,6 +44,8 @@ function clickbra(){
     textoArr[32].innerHTML = "Termos de uso - Politica de privacidade"
 }
 
+console.log()
+
 function clickeua(){
     bra.style.opacity = "50%"
     eua.style.opacity = "100%"
@@ -58,8 +60,8 @@ function clickeua(){
     textoArr[8].innerHTML = "Local"
     textoArr[9].innerHTML = "DEVELOPERS"
     textoArr[10].innerHTML = "Front-End Developer"
-    textoArr[11].innerHTML = "Back-End and Front-End Developer "
-    textoArr[12].innerHTML = "Analyst, Back-End and Front-End Developer"
+    textoArr[11].innerHTML = "Analyst, Back-End and Front-End Developer"
+    textoArr[12].innerHTML = "Back-End and Front-End Developer"
     textoArr[13].innerHTML = "Database Analysist"
     textoArr[14].innerHTML = "Digital Design"
     textoArr[15].innerHTML = "Database Analysist"
